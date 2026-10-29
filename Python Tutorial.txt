@@ -1,0 +1,108 @@
+DataTypes:
+name = 'Ted'
+print("name")
+print(name)
+print(type(name))
+print(type(7))
+percentage =88.6
+print(type(percentage))
+print(type(True))
+age=input("Enter Your age")
+print(age)
+print(type(age))
+age=age+1
+
+Comment:
+
+print("A","B","C")
+#HI
+''' how are you '''
+
+Arithmetic Operations:
+a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+
+Assignment Operator:
+#Assignment Operators
+X = 10
+print(X)
+X +=5
+print(X)
+
+#Comparison Operators
+print(X == Y)
+print(X>Y)
+print(X != Y)
+
+Logical Operators:
+
+#Logical Operators
+age = 20
+movie_ticket = "False"
+print(age > 18 and movie_ticket )
+print(age > 18 or movie_ticket )
+
+
+#Membership Operators
+fruits = "apple"
+print("a" in fruits)
+print("x" not in fruits)
+
+#Identity Operator
+a = [1,2,3,4]
+b = a
+print(a,b)
+print(id(a),id(b))
+c = [1,2,3,4]
+print(c)
+print(id(c))
+print(a is b)
+print(a is c)
+print(a == c)
+
+#Binary Operator
+#Binary Operator
+a = 5
+b = 3
+print(a & b)
+print(a | b)
+
+#String Operator
+text ="Welcome to the world"
+print(text)
+print(len(text))
+print(text.upper())
+print(text.lower())
+print(text.title())
+text1 =" hello    "
+print(text1.strip())
+text2 = "#hihello###"
+print(text2.strip("#"))
+print(text.replace("the world", "Texas Aubrey"))
+print(text.count("o"))
+print(text.find("to"))
+
+#Slicing
+word = "PYTHON"
+print(word[0])
+print(word[1])
+print(word[-1])
+print(word[0:2])
+print(word[:])
+print(word[:-1])
+print(word[:-1:])
+print(word[::-1])
+print(word[0:-2:2])
+
+#fstring
+word="ThisThat"
+print(f"This is a {word}")
+Exp=7
+Name = 'Sanju'
+print("My name  is " + Name,"Exp is " + str(Exp))
